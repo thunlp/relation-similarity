@@ -40,7 +40,7 @@ You can use the following code to yield similarity between relations after train
 python get_sim.py --model_path ./checkpoint --input ./data/wikipedia/ --output ./result
 ```
 
-You will get two files, "kl_prob.txt" and "kl_prob.json". The $i$th line contains the KL divergence between $i$th relation and other relations. 
+Two files will be produced, "kl_prob.txt" and "kl_prob.json". They are the same except the file format. The i-th line contains the KL divergence between i-th relation and other relations. 
 
 ## Hyper-parameters
 
