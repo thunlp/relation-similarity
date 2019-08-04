@@ -2,10 +2,16 @@
 
 Using fact distribution to quantify the similarity between relations in knowledge bases and real world. 
 
-If you use the code, pleace cite the following paper:
+If you use the code, pleace cite the following [paper](https://www.aclweb.org/anthology/P19-1278):
 
 ```
-(waiting to be updated)
+@inproceedings{chen2019quantifying,
+  title={Quantifying Similarity between Relations with Fact Distribution},
+  author={Chen, Weize and Zhu, Hao and Han, Xu and Liu, Zhiyuan and Sun, Maosong},
+  booktitle={Proceedings of the 57th Conference of the Association for Computational Linguistics},
+  pages={2882--2894},
+  year={2019}
+}
 ```
 
 ## Requirements
