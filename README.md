@@ -33,8 +33,10 @@ pip install -r requirements.txt
 You can use the following code to train a model that is capable of modeling fact distribution.
 
 ```
-python train.py --input ./data/wikipedia --output ./checkpoint -ent_pretrain -rel_pretrain 
+python train.py --input $Directory_to_your_own_dataset --output ./checkpoint -ent_pretrain -rel_pretrain 
 ```
+
+If you want to train the model on the provided wikipedia dataset, you have to decompress the pretrained entity embedding file first.
 
 Note that if you choose to add "-ent_pretrain" and "-rel_pretrain", ensure that you have pretrained embedding file "entity2vec.vec" and "relation2vec.vec" in your input directory. In our paper, the two pretrained embedding files are produced by running TransE on the dataset. We use the TransE implementation in [OpenKE](https://github.com/thunlp/OpenKE/tree/OpenKE-PyTorch).
 
